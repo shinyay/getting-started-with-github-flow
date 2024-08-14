@@ -15,4 +15,6 @@ public class Book {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
+    @Column(name = "title", length = 255, nullable = false)
+    private String title;
 }
