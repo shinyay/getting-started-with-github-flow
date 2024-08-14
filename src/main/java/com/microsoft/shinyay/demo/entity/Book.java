@@ -17,4 +17,7 @@ public class Book {
 
     @Column(name = "title", length = 255, nullable = false)
     private String title;
+
+    @Column(name = "author", length = 255, nullable = false)
+    private String author;
 }
