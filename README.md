@@ -1,4 +1,6 @@
-# Title
+# Getting Started with GitHub Flow (in progress...)
+
+This guide is a collection of resources to help you get started with GitHub Flow. It's a work in progress.
 
 ## Description
 
