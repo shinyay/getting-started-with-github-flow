@@ -4,6 +4,16 @@ This guide is a collection of resources to help you get started with GitHub Flow
 
 ## Description
 
+```
+graph TD;
+  A[master branch] -->|create branch| B[feature branch];
+  B --> C[work on feature];
+  C --> D[open pull request];
+  D --> E[code review];
+  E -->|merge| F[merge into master];
+  F --> G[deploy];
+```
+
 ## Demo
 
 ## Features
