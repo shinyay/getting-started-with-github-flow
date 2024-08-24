@@ -4,7 +4,7 @@ This guide is a collection of resources to help you get started with GitHub Flow
 
 ## Description
 
-```
+```mermaid
 graph TD;
   A[master branch] -->|create branch| B[feature branch];
   B --> C[work on feature];
