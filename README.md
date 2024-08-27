@@ -6,12 +6,17 @@ This guide is a collection of resources to help you get started with GitHub Flow
 
 ```mermaid
 graph TD;
-  A[master branch] -->|create branch| B[feature branch];
-  B --> C[work on feature];
-  C --> D[open pull request];
-  D --> E[code review];
-  E -->|merge| F[merge into master];
-  F --> G[deploy];
+    A[Start] --> B[Create Feature Branch];
+    B --> C[Work on Feature];
+    C --> D[Commit Changes];
+    D --> E[Open Pull Request];
+    E --> F[Review and Discuss];
+    F --> G{Approved?};
+    G -->|Yes| H[Merge into Master];
+    G -->|No| I[Request Changes];
+    I --> C;
+    H --> J[Deploy to Production];
+    J --> K[End];
 ```
 
 ## Demo
