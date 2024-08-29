@@ -4,6 +4,32 @@ This guide is a collection of resources to help you get started with GitHub Flow
 
 ## Description
 
+Key Concepts of GitHub Flow
+
+1.  Master Branch (or Main)
+
+- This is the default branch where the source code is always in a deployable state. It should only contain production-ready code.
+
+2. Feature Branches
+
+- Developers create feature branches off the master branch to work on specific tasks, such as adding new features, fixing bugs, or refactoring code.
+
+3. Commits
+
+- Changes are committed to the feature branch. Each commit should be a logical, atomic change that can be reviewed and tested independently.
+
+4. Pull Requests
+
+- When the feature is complete, a pull request (PR) is created to merge the feature branch back into the master branch. This is a chance for code review, discussions, and additional testing.
+
+5. Review & Merge
+
+- After the pull request is approved, it is merged into the master branch. The merge typically triggers an automated deployment or build process.
+
+6. Deploy
+
+- Once merged, the changes on the master branch are deployed to production. This can be automated or done manually.
+
 ### GitHub Flow with Mermaid Diagram
 
 ```mermaid
