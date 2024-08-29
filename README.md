@@ -4,6 +4,8 @@ This guide is a collection of resources to help you get started with GitHub Flow
 
 ## Description
 
+### GitHub Flow with Mermaid Diagram
+
 ```mermaid
 graph TD;
     A[Start] --> B[Create Feature Branch];
@@ -18,6 +20,19 @@ graph TD;
     H --> J[Deploy to Production];
     J --> K[End];
 ```
+
+Explanation of the Diagram:
+- **Start**: The workflow begins when a developer decides to start working on a new feature or bug fix.
+- **Create Feature Branch**: The developer creates a new branch off the master branch.
+- **Work on Feature**: The developer works on the feature or bug fix in the feature branch.
+- **Commit Changes**: The developer commits changes to the feature branch regularly.
+- **Open Pull Request**: Once the feature is complete, a pull request is opened to merge the changes back into the master branch.
+- **Review and Discuss**: Team members review the pull request, suggest changes if necessary, and discuss the implementation.
+- **Approved?**: If the pull request is approved, it moves to the next step. If not, the developer makes the requested changes and commits them.
+- Merge into Master**: The approved pull request is merged into the master branch.
+- **Deploy to Production**: The changes in the master branch are deployed to production, completing the workflow.
+- **End**: The process ends, and the master branch is now updated with the latest production-ready code.
+
 
 ## Demo
 
